@@ -2,7 +2,7 @@
   "asset": {
     "version": "1.1"
   },
-  "geometricError": 70,
+  "geometricError": 100,
   "root": {
     "boundingVolume": {
       "region": [
@@ -14,7 +14,7 @@
         10
       ]
     },
-    "geometricError": 70,
+    "geometricError": 100,
     "refine": "REPLACE",
     "content": {
       "uri": "tile_LOD1_r0_c0.glb"
@@ -31,7 +31,7 @@
             10
           ]
         },
-        "geometricError": 17.5,
+        "geometricError": 25,
         "refine": "REPLACE",
         "content": {
           "uri": "tile_LOD2_r0_c0.glb"
@@ -48,7 +48,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r0_c0.glb"
@@ -65,7 +65,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r0_c0.glb"
                 }
@@ -81,7 +81,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r0_c1.glb"
                 }
@@ -97,7 +97,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r1_c0.glb"
                 }
@@ -113,7 +113,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r1_c1.glb"
                 }
@@ -131,7 +131,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r0_c1.glb"
@@ -148,7 +148,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r0_c2.glb"
                 }
@@ -164,7 +164,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r1_c2.glb"
                 }
@@ -180,7 +180,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r1_c3.glb"
                 }
@@ -198,7 +198,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r1_c0.glb"
@@ -215,7 +215,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r2_c0.glb"
                 }
@@ -231,7 +231,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r2_c1.glb"
                 }
@@ -247,7 +247,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r3_c0.glb"
                 }
@@ -263,7 +263,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r3_c1.glb"
                 }
@@ -281,7 +281,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r1_c1.glb"
@@ -298,7 +298,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r2_c2.glb"
                 }
@@ -314,7 +314,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r2_c3.glb"
                 }
@@ -330,7 +330,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r3_c2.glb"
                 }
@@ -346,7 +346,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r3_c3.glb"
                 }
@@ -366,7 +366,7 @@
             10
           ]
         },
-        "geometricError": 17.5,
+        "geometricError": 25,
         "refine": "REPLACE",
         "content": {
           "uri": "tile_LOD2_r0_c1.glb"
@@ -383,7 +383,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r0_c2.glb"
@@ -400,7 +400,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r0_c5.glb"
                 }
@@ -416,7 +416,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r1_c4.glb"
                 }
@@ -432,7 +432,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r1_c5.glb"
                 }
@@ -450,7 +450,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r0_c3.glb"
@@ -467,7 +467,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r1_c6.glb"
                 }
@@ -483,7 +483,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r1_c7.glb"
                 }
@@ -501,7 +501,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r1_c2.glb"
@@ -518,7 +518,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r2_c4.glb"
                 }
@@ -534,7 +534,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r2_c5.glb"
                 }
@@ -550,7 +550,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r3_c4.glb"
                 }
@@ -566,7 +566,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r3_c5.glb"
                 }
@@ -584,7 +584,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r1_c3.glb"
@@ -601,7 +601,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r2_c6.glb"
                 }
@@ -617,7 +617,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r2_c7.glb"
                 }
@@ -633,7 +633,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r3_c6.glb"
                 }
@@ -649,7 +649,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r3_c7.glb"
                 }
@@ -669,7 +669,7 @@
             10
           ]
         },
-        "geometricError": 17.5,
+        "geometricError": 25,
         "refine": "REPLACE",
         "content": {
           "uri": "tile_LOD2_r1_c0.glb"
@@ -686,7 +686,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r2_c0.glb"
@@ -703,7 +703,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r4_c0.glb"
                 }
@@ -719,7 +719,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r4_c1.glb"
                 }
@@ -735,7 +735,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r5_c1.glb"
                 }
@@ -753,7 +753,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r2_c1.glb"
@@ -770,7 +770,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r4_c2.glb"
                 }
@@ -786,7 +786,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r4_c3.glb"
                 }
@@ -802,7 +802,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r5_c3.glb"
                 }
@@ -820,7 +820,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r3_c0.glb"
@@ -837,7 +837,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r6_c0.glb"
                 }
@@ -853,7 +853,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r6_c1.glb"
                 }
@@ -869,7 +869,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r7_c0.glb"
                 }
@@ -885,7 +885,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r7_c1.glb"
                 }
@@ -903,7 +903,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r3_c1.glb"
@@ -920,7 +920,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r6_c2.glb"
                 }
@@ -936,7 +936,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r6_c3.glb"
                 }
@@ -952,7 +952,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r7_c2.glb"
                 }
@@ -968,7 +968,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r7_c3.glb"
                 }
@@ -988,7 +988,7 @@
             10
           ]
         },
-        "geometricError": 17.5,
+        "geometricError": 25,
         "refine": "REPLACE",
         "content": {
           "uri": "tile_LOD2_r1_c1.glb"
@@ -1005,7 +1005,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r2_c2.glb"
@@ -1022,7 +1022,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r4_c4.glb"
                 }
@@ -1038,7 +1038,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r4_c5.glb"
                 }
@@ -1054,7 +1054,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r5_c5.glb"
                 }
@@ -1072,7 +1072,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r2_c3.glb"
@@ -1089,7 +1089,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r4_c6.glb"
                 }
@@ -1105,7 +1105,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r4_c7.glb"
                 }
@@ -1121,7 +1121,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r5_c6.glb"
                 }
@@ -1137,7 +1137,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r5_c7.glb"
                 }
@@ -1155,7 +1155,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r3_c2.glb"
@@ -1172,7 +1172,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r6_c4.glb"
                 }
@@ -1188,7 +1188,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r6_c5.glb"
                 }
@@ -1204,7 +1204,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r7_c4.glb"
                 }
@@ -1220,7 +1220,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r7_c5.glb"
                 }
@@ -1238,7 +1238,7 @@
                 10
               ]
             },
-            "geometricError": 4.375,
+            "geometricError": 6.25,
             "refine": "REPLACE",
             "content": {
               "uri": "tile_LOD4_r3_c3.glb"
@@ -1255,7 +1255,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r6_c6.glb"
                 }
@@ -1271,7 +1271,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r6_c7.glb"
                 }
@@ -1287,7 +1287,7 @@
                     10
                   ]
                 },
-                "geometricError": 1.09375,
+                "geometricError": 1.5625,
                 "content": {
                   "uri": "tile_LOD8_r7_c6.glb"
                 }

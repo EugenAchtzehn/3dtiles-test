@@ -17,7 +17,7 @@
     "geometricError": 100,
     "refine": "REPLACE",
     "content": {
-      "uri": "tile_LOD1_r0_c0.glb"
+      "uri": "tile_LOD0_r0_c0.glb"
     },
     "children": [
       {
@@ -31,10 +31,10 @@
             10
           ]
         },
-        "geometricError": 25,
+        "geometricError": 50,
         "refine": "REPLACE",
         "content": {
-          "uri": "tile_LOD2_r0_c0.glb"
+          "uri": "tile_LOD1_r0_c0.glb"
         },
         "children": [
           {
@@ -48,10 +48,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r0_c0.glb"
+              "uri": "tile_LOD2_r0_c0.glb"
             },
             "children": [
               {
@@ -65,10 +65,47 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r0_c0.glb"
-                }
+                  "uri": "tile_LOD3_r0_c0.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121152036808984,
+                        0.43761254452529114,
+                        2.1211792989342584,
+                        0.4376397850556138,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r0_c0.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1211792989342584,
+                        0.43761254452529114,
+                        2.1212065610595334,
+                        0.4376397850556138,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r0_c1.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -81,10 +118,64 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r0_c1.glb"
-                }
+                  "uri": "tile_LOD3_r0_c1.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212065610595334,
+                        0.43761254452529114,
+                        2.1212338231848085,
+                        0.4376397850556138,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r0_c2.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212338231848085,
+                        0.43761254452529114,
+                        2.1212610853100835,
+                        0.4376397850556138,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r0_c3.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212065610595334,
+                        0.4376397850556138,
+                        2.1212338231848085,
+                        0.43766702558593645,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r1_c2.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -97,10 +188,47 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r1_c0.glb"
-                }
+                  "uri": "tile_LOD3_r1_c0.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121152036808984,
+                        0.4376942661162592,
+                        2.1211792989342584,
+                        0.4377215066465819,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r3_c0.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1211792989342584,
+                        0.4376942661162592,
+                        2.1212065610595334,
+                        0.4377215066465819,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r3_c1.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -113,10 +241,47 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r1_c1.glb"
-                }
+                  "uri": "tile_LOD3_r1_c1.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212065610595334,
+                        0.4376942661162592,
+                        2.1212338231848085,
+                        0.4377215066465819,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r3_c2.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212338231848085,
+                        0.4376942661162592,
+                        2.1212610853100835,
+                        0.4377215066465819,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r3_c3.glb"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -131,10 +296,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r0_c1.glb"
+              "uri": "tile_LOD2_r0_c1.glb"
             },
             "children": [
               {
@@ -148,10 +313,47 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r0_c2.glb"
-                }
+                  "uri": "tile_LOD3_r0_c2.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212610853100835,
+                        0.43761254452529114,
+                        2.1212883474353585,
+                        0.4376397850556138,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r0_c4.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212610853100835,
+                        0.4376397850556138,
+                        2.1212883474353585,
+                        0.43766702558593645,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r1_c4.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -164,10 +366,64 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r1_c2.glb"
-                }
+                  "uri": "tile_LOD3_r1_c2.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212610853100835,
+                        0.4376670255859365,
+                        2.1212883474353585,
+                        0.4376942661162592,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r2_c4.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212883474353585,
+                        0.4376670255859365,
+                        2.121315609560633,
+                        0.4376942661162592,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r2_c5.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212883474353585,
+                        0.4376942661162592,
+                        2.121315609560633,
+                        0.4377215066465819,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r3_c5.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -180,10 +436,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r1_c3.glb"
-                }
+                  "uri": "tile_LOD3_r1_c3.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121315609560633,
+                        0.4376670255859365,
+                        2.121342871685908,
+                        0.4376942661162592,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r2_c6.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213428716859086,
+                        0.4376670255859365,
+                        2.1213701338111832,
+                        0.4376942661162592,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r2_c7.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121315609560633,
+                        0.4376942661162592,
+                        2.121342871685908,
+                        0.4377215066465819,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r3_c6.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213428716859086,
+                        0.4376942661162592,
+                        2.1213701338111832,
+                        0.4377215066465819,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r3_c7.glb"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -198,10 +525,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r1_c0.glb"
+              "uri": "tile_LOD2_r1_c0.glb"
             },
             "children": [
               {
@@ -215,10 +542,47 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r2_c0.glb"
-                }
+                  "uri": "tile_LOD3_r2_c0.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121152036808984,
+                        0.4377215066465819,
+                        2.1211792989342584,
+                        0.4377487471769045,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r4_c0.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1211792989342584,
+                        0.4377215066465819,
+                        2.1212065610595334,
+                        0.4377487471769045,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r4_c1.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -231,10 +595,30 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r2_c1.glb"
-                }
+                  "uri": "tile_LOD3_r2_c1.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212065610595334,
+                        0.4377215066465819,
+                        2.1212338231848085,
+                        0.4377487471769045,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r4_c2.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -247,10 +631,30 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r3_c0.glb"
-                }
+                  "uri": "tile_LOD3_r3_c0.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1211792989342584,
+                        0.4378032282375499,
+                        2.1212065610595334,
+                        0.43783046876787257,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r7_c1.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -263,10 +667,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r3_c1.glb"
-                }
+                  "uri": "tile_LOD3_r3_c1.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212065610595334,
+                        0.4377759877072272,
+                        2.1212338231848085,
+                        0.4378032282375499,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r6_c2.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212338231848085,
+                        0.4377759877072272,
+                        2.1212610853100835,
+                        0.4378032282375499,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r6_c3.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212065610595334,
+                        0.4378032282375499,
+                        2.1212338231848085,
+                        0.43783046876787257,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r7_c2.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212338231848085,
+                        0.4378032282375499,
+                        2.1212610853100835,
+                        0.43783046876787257,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r7_c3.glb"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -281,10 +756,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r1_c1.glb"
+              "uri": "tile_LOD2_r1_c1.glb"
             },
             "children": [
               {
@@ -298,10 +773,30 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r2_c2.glb"
-                }
+                  "uri": "tile_LOD3_r2_c2.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212610853100835,
+                        0.4377487471769045,
+                        2.1212883474353585,
+                        0.43777598770722714,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r5_c4.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -314,10 +809,47 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r2_c3.glb"
-                }
+                  "uri": "tile_LOD3_r2_c3.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213428716859086,
+                        0.4377215066465819,
+                        2.1213701338111832,
+                        0.4377487471769045,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r4_c7.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213428716859086,
+                        0.4377487471769045,
+                        2.1213701338111832,
+                        0.43777598770722714,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r5_c7.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -330,10 +862,64 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r3_c2.glb"
-                }
+                  "uri": "tile_LOD3_r3_c2.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212610853100835,
+                        0.4377759877072272,
+                        2.1212883474353585,
+                        0.4378032282375499,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r6_c4.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212610853100835,
+                        0.4378032282375499,
+                        2.1212883474353585,
+                        0.43783046876787257,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r7_c4.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212883474353585,
+                        0.4378032282375499,
+                        2.121315609560633,
+                        0.43783046876787257,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r7_c5.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -346,10 +932,64 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r3_c3.glb"
-                }
+                  "uri": "tile_LOD3_r3_c3.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213428716859086,
+                        0.4377759877072272,
+                        2.1213701338111832,
+                        0.4378032282375499,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r6_c7.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121315609560633,
+                        0.4378032282375499,
+                        2.121342871685908,
+                        0.43783046876787257,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r7_c6.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213428716859086,
+                        0.4378032282375499,
+                        2.1213701338111832,
+                        0.43783046876787257,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r7_c7.glb"
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -366,10 +1006,10 @@
             10
           ]
         },
-        "geometricError": 25,
+        "geometricError": 50,
         "refine": "REPLACE",
         "content": {
-          "uri": "tile_LOD2_r0_c1.glb"
+          "uri": "tile_LOD1_r0_c1.glb"
         },
         "children": [
           {
@@ -383,10 +1023,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r0_c2.glb"
+              "uri": "tile_LOD2_r0_c2.glb"
             },
             "children": [
               {
@@ -400,10 +1040,30 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r0_c5.glb"
-                }
+                  "uri": "tile_LOD3_r0_c5.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121451920187008,
+                        0.43761254452529114,
+                        2.121479182312283,
+                        0.4376397850556138,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r0_c11.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -416,10 +1076,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r1_c4.glb"
-                }
+                  "uri": "tile_LOD3_r1_c4.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213701338111832,
+                        0.4376670255859365,
+                        2.1213973959364583,
+                        0.4376942661162592,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r2_c8.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213973959364583,
+                        0.4376670255859365,
+                        2.121424658061733,
+                        0.4376942661162592,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r2_c9.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213701338111832,
+                        0.4376942661162592,
+                        2.1213973959364583,
+                        0.4377215066465819,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r3_c8.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213973959364583,
+                        0.4376942661162592,
+                        2.121424658061733,
+                        0.4377215066465819,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r3_c9.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -432,10 +1163,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r1_c5.glb"
-                }
+                  "uri": "tile_LOD3_r1_c5.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1214246580617333,
+                        0.4376670255859365,
+                        2.121451920187008,
+                        0.4376942661162592,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r2_c10.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121451920187008,
+                        0.4376670255859365,
+                        2.121479182312283,
+                        0.4376942661162592,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r2_c11.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1214246580617333,
+                        0.4376942661162592,
+                        2.121451920187008,
+                        0.4377215066465819,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r3_c10.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121451920187008,
+                        0.4376942661162592,
+                        2.121479182312283,
+                        0.4377215066465819,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r3_c11.glb"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -450,10 +1252,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r0_c3.glb"
+              "uri": "tile_LOD2_r0_c3.glb"
             },
             "children": [
               {
@@ -467,10 +1269,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r1_c6.glb"
-                }
+                  "uri": "tile_LOD3_r1_c6.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121479182312283,
+                        0.4376670255859365,
+                        2.121506444437558,
+                        0.4376942661162592,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r2_c12.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121506444437558,
+                        0.4376670255859365,
+                        2.121533706562833,
+                        0.4376942661162592,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r2_c13.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121479182312283,
+                        0.4376942661162592,
+                        2.121506444437558,
+                        0.4377215066465819,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r3_c12.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121506444437558,
+                        0.4376942661162592,
+                        2.121533706562833,
+                        0.4377215066465819,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r3_c13.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -483,10 +1356,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r1_c7.glb"
-                }
+                  "uri": "tile_LOD3_r1_c7.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121533706562833,
+                        0.4376670255859365,
+                        2.1215609686881076,
+                        0.4376942661162592,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r2_c14.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121560968688108,
+                        0.4376670255859365,
+                        2.121588230813383,
+                        0.4376942661162592,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r2_c15.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121533706562833,
+                        0.4376942661162592,
+                        2.1215609686881076,
+                        0.4377215066465819,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r3_c14.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121560968688108,
+                        0.4376942661162592,
+                        2.121588230813383,
+                        0.4377215066465819,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r3_c15.glb"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -501,10 +1445,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r1_c2.glb"
+              "uri": "tile_LOD2_r1_c2.glb"
             },
             "children": [
               {
@@ -518,10 +1462,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r2_c4.glb"
-                }
+                  "uri": "tile_LOD3_r2_c4.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213701338111832,
+                        0.4377215066465819,
+                        2.1213973959364583,
+                        0.4377487471769045,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r4_c8.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213973959364583,
+                        0.4377215066465819,
+                        2.121424658061733,
+                        0.4377487471769045,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r4_c9.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213701338111832,
+                        0.4377487471769045,
+                        2.1213973959364583,
+                        0.43777598770722714,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r5_c8.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213973959364583,
+                        0.4377487471769045,
+                        2.121424658061733,
+                        0.43777598770722714,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r5_c9.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -534,10 +1549,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r2_c5.glb"
-                }
+                  "uri": "tile_LOD3_r2_c5.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1214246580617333,
+                        0.4377215066465819,
+                        2.121451920187008,
+                        0.4377487471769045,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r4_c10.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121451920187008,
+                        0.4377215066465819,
+                        2.121479182312283,
+                        0.4377487471769045,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r4_c11.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1214246580617333,
+                        0.4377487471769045,
+                        2.121451920187008,
+                        0.43777598770722714,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r5_c10.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121451920187008,
+                        0.4377487471769045,
+                        2.121479182312283,
+                        0.43777598770722714,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r5_c11.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -550,10 +1636,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r3_c4.glb"
-                }
+                  "uri": "tile_LOD3_r3_c4.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213701338111832,
+                        0.4377759877072272,
+                        2.1213973959364583,
+                        0.4378032282375499,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r6_c8.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213973959364583,
+                        0.4377759877072272,
+                        2.121424658061733,
+                        0.4378032282375499,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r6_c9.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213701338111832,
+                        0.4378032282375499,
+                        2.1213973959364583,
+                        0.43783046876787257,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r7_c8.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213973959364583,
+                        0.4378032282375499,
+                        2.121424658061733,
+                        0.43783046876787257,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r7_c9.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -566,10 +1723,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r3_c5.glb"
-                }
+                  "uri": "tile_LOD3_r3_c5.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1214246580617333,
+                        0.4377759877072272,
+                        2.121451920187008,
+                        0.4378032282375499,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r6_c10.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121451920187008,
+                        0.4377759877072272,
+                        2.121479182312283,
+                        0.4378032282375499,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r6_c11.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1214246580617333,
+                        0.4378032282375499,
+                        2.121451920187008,
+                        0.43783046876787257,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r7_c10.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121451920187008,
+                        0.4378032282375499,
+                        2.121479182312283,
+                        0.43783046876787257,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r7_c11.glb"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -584,10 +1812,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r1_c3.glb"
+              "uri": "tile_LOD2_r1_c3.glb"
             },
             "children": [
               {
@@ -601,10 +1829,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r2_c6.glb"
-                }
+                  "uri": "tile_LOD3_r2_c6.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121479182312283,
+                        0.4377215066465819,
+                        2.121506444437558,
+                        0.4377487471769045,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r4_c12.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121506444437558,
+                        0.4377215066465819,
+                        2.121533706562833,
+                        0.4377487471769045,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r4_c13.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121479182312283,
+                        0.4377487471769045,
+                        2.121506444437558,
+                        0.43777598770722714,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r5_c12.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121506444437558,
+                        0.4377487471769045,
+                        2.121533706562833,
+                        0.43777598770722714,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r5_c13.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -617,10 +1916,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r2_c7.glb"
-                }
+                  "uri": "tile_LOD3_r2_c7.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121533706562833,
+                        0.4377215066465819,
+                        2.1215609686881076,
+                        0.4377487471769045,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r4_c14.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121560968688108,
+                        0.4377215066465819,
+                        2.121588230813383,
+                        0.4377487471769045,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r4_c15.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121533706562833,
+                        0.4377487471769045,
+                        2.1215609686881076,
+                        0.43777598770722714,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r5_c14.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121560968688108,
+                        0.4377487471769045,
+                        2.121588230813383,
+                        0.43777598770722714,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r5_c15.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -633,10 +2003,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r3_c6.glb"
-                }
+                  "uri": "tile_LOD3_r3_c6.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121479182312283,
+                        0.4377759877072272,
+                        2.121506444437558,
+                        0.4378032282375499,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r6_c12.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121506444437558,
+                        0.4377759877072272,
+                        2.121533706562833,
+                        0.4378032282375499,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r6_c13.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121479182312283,
+                        0.4378032282375499,
+                        2.121506444437558,
+                        0.43783046876787257,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r7_c12.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121506444437558,
+                        0.4378032282375499,
+                        2.121533706562833,
+                        0.43783046876787257,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r7_c13.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -649,10 +2090,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r3_c7.glb"
-                }
+                  "uri": "tile_LOD3_r3_c7.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121533706562833,
+                        0.4377759877072272,
+                        2.1215609686881076,
+                        0.4378032282375499,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r6_c14.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121560968688108,
+                        0.4377759877072272,
+                        2.121588230813383,
+                        0.4378032282375499,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r6_c15.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121533706562833,
+                        0.4378032282375499,
+                        2.1215609686881076,
+                        0.43783046876787257,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r7_c14.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121560968688108,
+                        0.4378032282375499,
+                        2.121588230813383,
+                        0.43783046876787257,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r7_c15.glb"
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -669,10 +2181,10 @@
             10
           ]
         },
-        "geometricError": 25,
+        "geometricError": 50,
         "refine": "REPLACE",
         "content": {
-          "uri": "tile_LOD2_r1_c0.glb"
+          "uri": "tile_LOD1_r1_c0.glb"
         },
         "children": [
           {
@@ -686,10 +2198,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r2_c0.glb"
+              "uri": "tile_LOD2_r2_c0.glb"
             },
             "children": [
               {
@@ -703,10 +2215,30 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r4_c0.glb"
-                }
+                  "uri": "tile_LOD3_r4_c0.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1211792989342584,
+                        0.43783046876787257,
+                        2.1212065610595334,
+                        0.4378577092981952,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r8_c1.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -719,10 +2251,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r4_c1.glb"
-                }
+                  "uri": "tile_LOD3_r4_c1.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212065610595334,
+                        0.43783046876787257,
+                        2.1212338231848085,
+                        0.4378577092981952,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r8_c2.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212338231848085,
+                        0.43783046876787257,
+                        2.1212610853100835,
+                        0.4378577092981952,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r8_c3.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212065610595334,
+                        0.4378577092981952,
+                        2.1212338231848085,
+                        0.43788494982851783,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r9_c2.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212338231848085,
+                        0.4378577092981952,
+                        2.1212610853100835,
+                        0.43788494982851783,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r9_c3.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -735,10 +2338,47 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r5_c1.glb"
-                }
+                  "uri": "tile_LOD3_r5_c1.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212065610595334,
+                        0.4378849498285179,
+                        2.1212338231848085,
+                        0.4379121903588406,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r10_c2.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212065610595334,
+                        0.4379121903588406,
+                        2.1212338231848085,
+                        0.43793943088916326,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r11_c2.glb"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -753,10 +2393,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r2_c1.glb"
+              "uri": "tile_LOD2_r2_c1.glb"
             },
             "children": [
               {
@@ -770,10 +2410,30 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r4_c2.glb"
-                }
+                  "uri": "tile_LOD3_r4_c2.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212610853100835,
+                        0.43783046876787257,
+                        2.1212883474353585,
+                        0.4378577092981952,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r8_c4.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -786,10 +2446,47 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r4_c3.glb"
-                }
+                  "uri": "tile_LOD3_r4_c3.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213428716859086,
+                        0.43783046876787257,
+                        2.1213701338111832,
+                        0.4378577092981952,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r8_c7.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213428716859086,
+                        0.4378577092981952,
+                        2.1213701338111832,
+                        0.43788494982851783,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r9_c7.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -802,10 +2499,30 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r5_c3.glb"
-                }
+                  "uri": "tile_LOD3_r5_c3.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213428716859086,
+                        0.4379121903588406,
+                        2.1213701338111832,
+                        0.43793943088916326,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r11_c7.glb"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -820,10 +2537,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r3_c0.glb"
+              "uri": "tile_LOD2_r3_c0.glb"
             },
             "children": [
               {
@@ -837,10 +2554,47 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r6_c0.glb"
-                }
+                  "uri": "tile_LOD3_r6_c0.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1211792989342584,
+                        0.43793943088916326,
+                        2.1212065610595334,
+                        0.43796667141948586,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r12_c1.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121152036808984,
+                        0.43796667141948586,
+                        2.1211792989342584,
+                        0.4379939119498085,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r13_c0.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -853,10 +2607,30 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r6_c1.glb"
-                }
+                  "uri": "tile_LOD3_r6_c1.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212338231848085,
+                        0.43796667141948586,
+                        2.1212610853100835,
+                        0.4379939119498085,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r13_c3.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -869,10 +2643,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r7_c0.glb"
-                }
+                  "uri": "tile_LOD3_r7_c0.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121152036808984,
+                        0.4379939119498086,
+                        2.1211792989342584,
+                        0.4380211524801313,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r14_c0.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1211792989342584,
+                        0.4379939119498086,
+                        2.1212065610595334,
+                        0.4380211524801313,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r14_c1.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121152036808984,
+                        0.4380211524801313,
+                        2.1211792989342584,
+                        0.43804839301045395,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r15_c0.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1211792989342584,
+                        0.4380211524801313,
+                        2.1212065610595334,
+                        0.43804839301045395,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r15_c1.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -885,10 +2730,64 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r7_c1.glb"
-                }
+                  "uri": "tile_LOD3_r7_c1.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212338231848085,
+                        0.4379939119498086,
+                        2.1212610853100835,
+                        0.4380211524801313,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r14_c3.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212065610595334,
+                        0.4380211524801313,
+                        2.1212338231848085,
+                        0.43804839301045395,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r15_c2.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212338231848085,
+                        0.4380211524801313,
+                        2.1212610853100835,
+                        0.43804839301045395,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r15_c3.glb"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -903,10 +2802,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r3_c1.glb"
+              "uri": "tile_LOD2_r3_c1.glb"
             },
             "children": [
               {
@@ -920,10 +2819,30 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r6_c2.glb"
-                }
+                  "uri": "tile_LOD3_r6_c2.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212883474353585,
+                        0.43796667141948586,
+                        2.121315609560633,
+                        0.4379939119498085,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r13_c5.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -936,10 +2855,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r6_c3.glb"
-                }
+                  "uri": "tile_LOD3_r6_c3.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121315609560633,
+                        0.43793943088916326,
+                        2.121342871685908,
+                        0.43796667141948586,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r12_c6.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213428716859086,
+                        0.43793943088916326,
+                        2.1213701338111832,
+                        0.43796667141948586,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r12_c7.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121315609560633,
+                        0.43796667141948586,
+                        2.121342871685908,
+                        0.4379939119498085,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r13_c6.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213428716859086,
+                        0.43796667141948586,
+                        2.1213701338111832,
+                        0.4379939119498085,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r13_c7.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -952,10 +2942,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r7_c2.glb"
-                }
+                  "uri": "tile_LOD3_r7_c2.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212610853100835,
+                        0.4379939119498086,
+                        2.1212883474353585,
+                        0.4380211524801313,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r14_c4.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212883474353585,
+                        0.4379939119498086,
+                        2.121315609560633,
+                        0.4380211524801313,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r14_c5.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212610853100835,
+                        0.4380211524801313,
+                        2.1212883474353585,
+                        0.43804839301045395,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r15_c4.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1212883474353585,
+                        0.4380211524801313,
+                        2.121315609560633,
+                        0.43804839301045395,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r15_c5.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -968,10 +3029,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r7_c3.glb"
-                }
+                  "uri": "tile_LOD3_r7_c3.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121315609560633,
+                        0.4379939119498086,
+                        2.121342871685908,
+                        0.4380211524801313,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r14_c6.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213428716859086,
+                        0.4379939119498086,
+                        2.1213701338111832,
+                        0.4380211524801313,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r14_c7.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121315609560633,
+                        0.4380211524801313,
+                        2.121342871685908,
+                        0.43804839301045395,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r15_c6.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213428716859086,
+                        0.4380211524801313,
+                        2.1213701338111832,
+                        0.43804839301045395,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r15_c7.glb"
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -988,10 +3120,10 @@
             10
           ]
         },
-        "geometricError": 25,
+        "geometricError": 50,
         "refine": "REPLACE",
         "content": {
-          "uri": "tile_LOD2_r1_c1.glb"
+          "uri": "tile_LOD1_r1_c1.glb"
         },
         "children": [
           {
@@ -1005,10 +3137,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r2_c2.glb"
+              "uri": "tile_LOD2_r2_c2.glb"
             },
             "children": [
               {
@@ -1022,10 +3154,64 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r4_c4.glb"
-                }
+                  "uri": "tile_LOD3_r4_c4.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213701338111832,
+                        0.43783046876787257,
+                        2.1213973959364583,
+                        0.4378577092981952,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r8_c8.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213973959364583,
+                        0.43783046876787257,
+                        2.121424658061733,
+                        0.4378577092981952,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r8_c9.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213701338111832,
+                        0.4378577092981952,
+                        2.1213973959364583,
+                        0.43788494982851783,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r9_c8.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -1038,10 +3224,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r4_c5.glb"
-                }
+                  "uri": "tile_LOD3_r4_c5.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1214246580617333,
+                        0.43783046876787257,
+                        2.121451920187008,
+                        0.4378577092981952,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r8_c10.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121451920187008,
+                        0.43783046876787257,
+                        2.121479182312283,
+                        0.4378577092981952,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r8_c11.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1214246580617333,
+                        0.4378577092981952,
+                        2.121451920187008,
+                        0.43788494982851783,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r9_c10.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121451920187008,
+                        0.4378577092981952,
+                        2.121479182312283,
+                        0.43788494982851783,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r9_c11.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -1054,10 +3311,30 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r5_c5.glb"
-                }
+                  "uri": "tile_LOD3_r5_c5.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121451920187008,
+                        0.4378849498285179,
+                        2.121479182312283,
+                        0.4379121903588406,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r10_c11.glb"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -1072,10 +3349,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r2_c3.glb"
+              "uri": "tile_LOD2_r2_c3.glb"
             },
             "children": [
               {
@@ -1089,10 +3366,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r4_c6.glb"
-                }
+                  "uri": "tile_LOD3_r4_c6.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121479182312283,
+                        0.43783046876787257,
+                        2.121506444437558,
+                        0.4378577092981952,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r8_c12.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121506444437558,
+                        0.43783046876787257,
+                        2.121533706562833,
+                        0.4378577092981952,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r8_c13.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121479182312283,
+                        0.4378577092981952,
+                        2.121506444437558,
+                        0.43788494982851783,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r9_c12.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121506444437558,
+                        0.4378577092981952,
+                        2.121533706562833,
+                        0.43788494982851783,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r9_c13.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -1105,10 +3453,64 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r4_c7.glb"
-                }
+                  "uri": "tile_LOD3_r4_c7.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121533706562833,
+                        0.43783046876787257,
+                        2.1215609686881076,
+                        0.4378577092981952,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r8_c14.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121560968688108,
+                        0.43783046876787257,
+                        2.121588230813383,
+                        0.4378577092981952,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r8_c15.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121560968688108,
+                        0.4378577092981952,
+                        2.121588230813383,
+                        0.43788494982851783,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r9_c15.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -1121,10 +3523,30 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r5_c6.glb"
-                }
+                  "uri": "tile_LOD3_r5_c6.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121479182312283,
+                        0.4378849498285179,
+                        2.121506444437558,
+                        0.4379121903588406,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r10_c12.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -1137,10 +3559,30 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r5_c7.glb"
-                }
+                  "uri": "tile_LOD3_r5_c7.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121560968688108,
+                        0.4379121903588406,
+                        2.121588230813383,
+                        0.43793943088916326,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r11_c15.glb"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -1155,10 +3597,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r3_c2.glb"
+              "uri": "tile_LOD2_r3_c2.glb"
             },
             "children": [
               {
@@ -1172,10 +3614,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r6_c4.glb"
-                }
+                  "uri": "tile_LOD3_r6_c4.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213701338111832,
+                        0.43793943088916326,
+                        2.1213973959364583,
+                        0.43796667141948586,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r12_c8.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213973959364583,
+                        0.43793943088916326,
+                        2.121424658061733,
+                        0.43796667141948586,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r12_c9.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213701338111832,
+                        0.43796667141948586,
+                        2.1213973959364583,
+                        0.4379939119498085,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r13_c8.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213973959364583,
+                        0.43796667141948586,
+                        2.121424658061733,
+                        0.4379939119498085,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r13_c9.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -1188,10 +3701,64 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r6_c5.glb"
-                }
+                  "uri": "tile_LOD3_r6_c5.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1214246580617333,
+                        0.43793943088916326,
+                        2.121451920187008,
+                        0.43796667141948586,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r12_c10.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1214246580617333,
+                        0.43796667141948586,
+                        2.121451920187008,
+                        0.4379939119498085,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r13_c10.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121451920187008,
+                        0.43796667141948586,
+                        2.121479182312283,
+                        0.4379939119498085,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r13_c11.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -1204,10 +3771,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r7_c4.glb"
-                }
+                  "uri": "tile_LOD3_r7_c4.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213701338111832,
+                        0.4379939119498086,
+                        2.1213973959364583,
+                        0.4380211524801313,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r14_c8.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213973959364583,
+                        0.4379939119498086,
+                        2.121424658061733,
+                        0.4380211524801313,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r14_c9.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213701338111832,
+                        0.4380211524801313,
+                        2.1213973959364583,
+                        0.43804839301045395,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r15_c8.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1213973959364583,
+                        0.4380211524801313,
+                        2.121424658061733,
+                        0.43804839301045395,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r15_c9.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -1220,10 +3858,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r7_c5.glb"
-                }
+                  "uri": "tile_LOD3_r7_c5.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1214246580617333,
+                        0.4379939119498086,
+                        2.121451920187008,
+                        0.4380211524801313,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r14_c10.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121451920187008,
+                        0.4379939119498086,
+                        2.121479182312283,
+                        0.4380211524801313,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r14_c11.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.1214246580617333,
+                        0.4380211524801313,
+                        2.121451920187008,
+                        0.43804839301045395,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r15_c10.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121451920187008,
+                        0.4380211524801313,
+                        2.121479182312283,
+                        0.43804839301045395,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r15_c11.glb"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -1238,10 +3947,10 @@
                 10
               ]
             },
-            "geometricError": 6.25,
+            "geometricError": 25,
             "refine": "REPLACE",
             "content": {
-              "uri": "tile_LOD4_r3_c3.glb"
+              "uri": "tile_LOD2_r3_c3.glb"
             },
             "children": [
               {
@@ -1255,10 +3964,81 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r6_c6.glb"
-                }
+                  "uri": "tile_LOD3_r6_c6.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121479182312283,
+                        0.43793943088916326,
+                        2.121506444437558,
+                        0.43796667141948586,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r12_c12.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121506444437558,
+                        0.43793943088916326,
+                        2.121533706562833,
+                        0.43796667141948586,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r12_c13.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121479182312283,
+                        0.43796667141948586,
+                        2.121506444437558,
+                        0.4379939119498085,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r13_c12.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121506444437558,
+                        0.43796667141948586,
+                        2.121533706562833,
+                        0.4379939119498085,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r13_c13.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -1271,10 +4051,30 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r6_c7.glb"
-                }
+                  "uri": "tile_LOD3_r6_c7.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121560968688108,
+                        0.43793943088916326,
+                        2.121588230813383,
+                        0.43796667141948586,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r12_c15.glb"
+                    }
+                  }
+                ]
               },
               {
                 "boundingVolume": {
@@ -1287,10 +4087,64 @@
                     10
                   ]
                 },
-                "geometricError": 1.5625,
+                "geometricError": 12.5,
+                "refine": "REPLACE",
                 "content": {
-                  "uri": "tile_LOD8_r7_c6.glb"
-                }
+                  "uri": "tile_LOD3_r7_c6.glb"
+                },
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121479182312283,
+                        0.4379939119498086,
+                        2.121506444437558,
+                        0.4380211524801313,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r14_c12.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121506444437558,
+                        0.4379939119498086,
+                        2.121533706562833,
+                        0.4380211524801313,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r14_c13.glb"
+                    }
+                  },
+                  {
+                    "boundingVolume": {
+                      "region": [
+                        2.121479182312283,
+                        0.4380211524801313,
+                        2.121506444437558,
+                        0.43804839301045395,
+                        0,
+                        10
+                      ]
+                    },
+                    "geometricError": 6.25,
+                    "refine": "REPLACE",
+                    "content": {
+                      "uri": "tile_LOD4_r15_c12.glb"
+                    }
+                  }
+                ]
               }
             ]
           }
